@@ -14,6 +14,26 @@ export function App() {
         </span>{' '}
         está aqui.
       </h1>
+      <div className="grid grid-cols-6 gap-6">
+        <a href="">
+          <img src="/image_01.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="/image_02.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="/image_03.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="/image_04.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="/image_05.svg" alt="" />
+        </a>
+        <a href="">
+          <img src="/image_06.svg" alt="" />
+        </a>
+      </div>
     </div>
   );
 }
